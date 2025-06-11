@@ -13,6 +13,7 @@ class Calculatrice(QWidget):
         self.boutonDiviser.clicked.connect(self.division)
         self.boutonFactoriel.clicked.connect(self.calculer_factorielle)
 
+#abdelhamid commentaire modification
 
     def additionner(self):
         try:
